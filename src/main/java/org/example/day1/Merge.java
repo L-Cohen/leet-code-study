@@ -81,7 +81,7 @@ public class Merge {
             } else if (nums1[p1] > nums2[p2]) {
                 cur = nums1[p1--];
             } else {
-                cur = nums1[p2--];
+                cur = nums2[p2--];
             }
             nums1[tail--] = cur;
         }
