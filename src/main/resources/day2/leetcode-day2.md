@@ -47,7 +47,7 @@
 
 3. 买卖股票的最佳时机（https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/?envType=study-plan-v2&envId=top-interview-150）
 
-   ![image-20230612214721123](C:\Users\admin\AppData\Roaming\Typora\typora-user-images\image-20230612214721123.png)
+   ![image-20230612214721123.png](..%2Fimages%2Fimage-20230612214721123.png)
 
    ```java
    // 根据数组可以得到如上图坐标只需要找到坐标中最小值以及相对最小值的最大值
