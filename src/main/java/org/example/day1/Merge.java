@@ -56,9 +56,7 @@ public class Merge {
             }
             cur++;
         }
-        for (int i = 0; i < result.length; i++) {
-            nums1[i] = result[i];
-        }
+        System.arraycopy(result, 0, nums1, 0, result.length);
     }
 
 
@@ -92,5 +90,11 @@ public class Merge {
         int[] nums2 = new int[]{};
         merge2(nums1, 1, nums2, 0);
         System.out.println(Arrays.toString(nums1));
+    }
+
+    /**
+     * 双指针
+     */
+    public static void mergeReview1(int[] nums1, int m, int[] nums2, int n) {
     }
 }
