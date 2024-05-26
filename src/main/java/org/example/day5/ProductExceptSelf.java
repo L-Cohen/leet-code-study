@@ -10,7 +10,7 @@ import java.util.Arrays;
  * <a href="https://leetcode.cn/problems/product-of-array-except-self/?envType=study-plan-v2&envId=top-interview-150">...</a>
  * @date 2024/5/14
  */
-public class productExceptSelf {
+public class ProductExceptSelf {
 
     /**
      * 通过初始化两个数组得到结果，下标i的值等于左边的乘积乘的右边的乘积
